@@ -5,7 +5,7 @@
     ]
   },
   "branch": "main",
-  "is_contrib": true,
+  "is_contrib": false,
   "_links": {
     "repository": "github.com/github.com/dehuk/SymfonyRecipes",
     "origin_template": "{package}:{version}@github.com/dehuk/SymfonyRecipes:main",
