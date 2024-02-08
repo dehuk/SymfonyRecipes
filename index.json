@@ -9,6 +9,6 @@
   "_links": {
     "repository": "github.com/github.com/dehuk/SymfonyRecipes",
     "origin_template": "{package}:{version}@github.com/dehuk/SymfonyRecipes:main",
-    "recipe_template": "https://api.github.com/repos/dehuk/flax/main/SymfonyRecipes/{package_dotted}.{version}.json"
+    "recipe_template": "https://api.github.com/repos/dehuk/flex/main/SymfonyRecipes/{package_dotted}.{version}.json"
   }
 }
