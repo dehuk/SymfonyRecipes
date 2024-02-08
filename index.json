@@ -1,7 +1,7 @@
 {
   "recipes": {
     "dehuk/jsonrpc-client-bundle": [
-      "1.0"
+      "1.0.0"
     ]
   },
   "branch": "main",
