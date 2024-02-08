@@ -1,11 +1,11 @@
 {
   "recipes": {
-    "dehuk/jsonrpc-client-bundle": [
-      "1.0.0"
+    "acme/private-bundle": [
+      "1.0"
     ]
   },
   "branch": "main",
-  "is_contrib": false,
+  "is_contrib": true,
   "_links": {
     "repository": "github.com/github.com/dehuk/SymfonyRecipes",
     "origin_template": "{package}:{version}@github.com/dehuk/SymfonyRecipes:main",
