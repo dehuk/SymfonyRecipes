@@ -1,1 +1,0 @@
-  * <fg=blue>Set</> <comment>claims_type</> in configuration file
