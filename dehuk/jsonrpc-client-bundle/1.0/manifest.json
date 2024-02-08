@@ -1,0 +1,8 @@
+{
+  "bundles": {
+    "Dehuk\\Bundle\\JsonRpcClient\\JsonRpcClientBundle": ["all"]
+  },
+  "copy-from-recipe": {
+    "config/": "%CONFIG_DIR%/"
+  }
+}
