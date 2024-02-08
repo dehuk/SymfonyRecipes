@@ -7,6 +7,8 @@
   "branch": "main",
   "is_contrib": true,
   "_links": {
-    "repository": "https://github.com/dehuk/SymfonyRecipes"
+    "repository": "github.com/your-github-account-name/your-recipes-repository",
+    "origin_template": "{package}:{version}@github.com/dehuk/SymfonyRecipes:main",
+    "recipe_template": "https://api.github.com/repos/dehuk/SymfonyRecipes/contents/{package_dotted}.{version}.json"
   }
 }
