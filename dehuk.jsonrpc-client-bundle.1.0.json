@@ -7,6 +7,32 @@
         },
         "copy-from-recipe": {
           "config/": "%CONFIG_DIR%"
+        },
+        "post-install-output": [
+          "  * <fg=blue>Set</> <comment>claims_type</> in configuration file"
+        ]
+      },
+      "files": {
+        "config/packages/jsonrpc_client.yaml": {
+          "contents": [
+            "jsonrpc_settings:",
+            "    # Set type of claims:",
+            "    # base: for base service without reference to the product",
+            "    # smart: for projects reference to SMART",
+            "    # citymark: for projects reference to CityMark",
+            "    product_type: base",
+            ""
+          ],
+          "executable": false
+        },
+        "config/routes/jsonrpc_client.yaml": {
+          "contents": [
+            "jsonrpc_routes:",
+            "    type: annotation",
+            "    resource: '../src/Controller/'",
+            ""
+          ],
+          "executable": false
         }
       },
       "ref": "7405f3af1312d1f9121afed4dddef636c6c7ff00"
