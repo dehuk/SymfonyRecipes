@@ -13,9 +13,9 @@
         ]
       },
       "files": {
-        "config/packages/jsonrpc_client.yaml": {
+        "config/packages/json_rpc_client.yaml": {
           "contents": [
-            "jsonrpc_settings:",
+            "json_rpc_client:",
             "    # Set type of claims:",
             "    # base: for base service without reference to the product",
             "    # smart: for projects reference to SMART",
@@ -25,9 +25,9 @@
           ],
           "executable": false
         },
-        "config/routes/jsonrpc_client.yaml": {
+        "config/routes/json_rpc_client.yaml": {
           "contents": [
-            "jsonrpc_routes:",
+            "json_rpc_client_routes:",
             "    type: annotation",
             "    resource: '../src/Controller/'",
             ""
