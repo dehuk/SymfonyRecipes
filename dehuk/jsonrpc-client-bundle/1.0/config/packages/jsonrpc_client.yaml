@@ -1,7 +1,0 @@
-jsonrpc_settings:
-
-  # Set type of claims:
-  # base: for base service without reference to the product
-  # smart: for projects reference to SMART
-  # citymark: for projects reference to CityMark
-  product_type: base
