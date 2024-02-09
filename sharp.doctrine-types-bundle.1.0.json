@@ -1,0 +1,38 @@
+{
+  "manifests": {
+    "sharp/doctrine-types-bundle": {
+      "manifest": {
+        "bundles": {
+          "Sharp\\Bundle\\DoctrineTypes\\DoctrineTypesBundle": ["all"]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%/"
+        },
+        "post-install-output": [
+          "    * To enable custom DoctrineTypes to doctrine.yaml",
+          "         types:",
+          "           text_array:",
+          "             class: Sharp\\Bundle\\DoctrineTypes\\DBAL\\Types\\PostgresTextArrayType",
+          "           integer_array:",
+          "             class: Sharp\\Bundle\\DoctrineTypes\\DBAL\\Types\\PostgresIntegerArrayType",
+          "           text_array:",
+          "             jsonb: Sharp\\Bundle\\DoctrineTypes\\DBAL\\Types\\PostgresJsonbType",
+          " ",
+          " "
+        ]
+      },
+      "files": {
+        "config/packages/doctrine_types.yaml": {
+          "contents": [
+            "doctrine_types:",
+            "    api:",
+            "        token: SOME_VALUE ",
+            ""
+          ],
+          "executable": false
+        }
+      },
+      "ref": "d39a26779a8bd3bbbb0d3eabd5cca1aeb3215e10"
+    }
+  }
+}
