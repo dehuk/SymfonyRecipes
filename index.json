@@ -2,6 +2,9 @@
   "recipes": {
     "dehuk/jsonrpc-client-bundle": [
       "1.0"
+    ],
+    "sharp/doctrine-types-bundle": [
+      "1.0"
     ]
   },
   "branch": "main",
