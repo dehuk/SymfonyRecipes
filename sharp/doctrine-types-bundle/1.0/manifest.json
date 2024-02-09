@@ -1,0 +1,5 @@
+{
+  "bundles": {
+    "Sharp\\Bundle\\DoctrineTypes\\DoctrineTypesBundle": ["all"]
+  }
+}

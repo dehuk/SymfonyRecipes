@@ -1,0 +1,3 @@
+doctrine_types:
+  api:
+    token: SOME_VAL_1
