@@ -4,5 +4,5 @@
        class: Sharp\\Bundle\\DoctrineTypes\\DBAL\\Types\\PostgresTextArrayType
      integer_array:
        class: Sharp\\Bundle\\DoctrineTypes\\DBAL\\Types\\PostgresIntegerArrayType
-     text_array:
-       jsonb: Sharp\\Bundle\\DoctrineTypes\\DBAL\\Types\\PostgresJsonbType
+     jsonb:
+       class: Sharp\\Bundle\\DoctrineTypes\\DBAL\\Types\\PostgresJsonbType
