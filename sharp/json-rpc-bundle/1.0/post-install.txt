@@ -1,0 +1,9 @@
+ * monolog settongs
+   monolog.formatter.jsonrpc_request:
+     class: Monolog\Formatter\LineFormatter
+     arguments:
+       - "[%%datetime%%] [%%extra.command%%] [%%extra.context%%] %%channel%%.%%level_name%%: %%message%% %%context%% %%extra%%\n"
+
+   Sharp\Bundle\JsonRpc\Logger\JsonRpcRequestProcessor:
+    tags:
+      - { name: monolog.processor }
