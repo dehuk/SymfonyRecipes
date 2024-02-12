@@ -5,6 +5,9 @@
     ],
     "sharp/doctrine-types-bundle": [
       "1.0"
+    ],
+    "sharp/json-rpc-bundle": [
+      "1.0"
     ]
   },
   "branch": "main",
