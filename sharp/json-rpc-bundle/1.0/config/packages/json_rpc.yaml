@@ -1,4 +1,4 @@
-json_rpc_context:
+json_rpc:
 
   # Set type of claims:
   #   base: for base service without reference to the product
