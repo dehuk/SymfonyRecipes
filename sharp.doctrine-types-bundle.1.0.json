@@ -12,12 +12,12 @@
           "       class: Sharp\\Bundle\\DoctrineTypes\\DBAL\\Types\\PostgresTextArrayType",
           "     integer_array:",
           "       class: Sharp\\Bundle\\DoctrineTypes\\DBAL\\Types\\PostgresIntegerArrayType",
-          "     text_array:",
-          "       jsonb: Sharp\\Bundle\\DoctrineTypes\\DBAL\\Types\\PostgresJsonbType",
+          "     jsonb:",
+          "       class: Sharp\\Bundle\\DoctrineTypes\\DBAL\\Types\\PostgresJsonbType",
           " "
         ]
       },
-      "ref": "9a613581eab60591f494a950018401d71c8937a6"
+      "ref": "679052a15b521835cae64af18a56a3460ddf0e61"
     }
   }
 }
