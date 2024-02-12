@@ -6,3 +6,5 @@
        class: Sharp\\Bundle\\DoctrineTypes\\DBAL\\Types\\PostgresIntegerArrayType
      jsonb:
        class: Sharp\\Bundle\\DoctrineTypes\\DBAL\\Types\\PostgresJsonbType
+     bigint_array:
+       class: Sharp\\Bundle\\DoctrineTypes\\DBAL\\Types\\PostgresBigintArrayType
