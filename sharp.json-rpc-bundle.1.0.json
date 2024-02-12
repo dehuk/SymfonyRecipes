@@ -1,0 +1,50 @@
+{
+  "manifests": {
+    "sharp/json-rpc-bundle": {
+      "manifest": {
+        "bundles": {
+          "Sharp\\Bundle\\JsonRpc\\JsonRpcBundle": ["all"]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        },
+        "post-install-output": [
+          " * Log settings",
+          "   monolog.formatter.jsonrpc_request:",
+          "     class: Monolog\\Formatter\\LineFormatter",
+          "       arguments:",
+          "         - \"[%%datetime%%] [%%extra.command%%] [%%extra.context%%] %%channel%%.%%level_name%%: %%message%% %%context%% %%extra%%\\n\"",
+          "",
+          "   Sharp\\Bundle\\JsonRpc\\Logger\\JsonRpcRequestProcessor:",
+          "     tags:",
+          "       - { name: monolog.processor }",
+          " "
+        ]
+      },
+      "files": {
+        "config/packages/json_rpc.yaml": {
+          "contents": [
+            "json_rpc_context:",
+            "",
+            "    # Set type of claims:",
+            "    #    base: for base service without reference to the product",
+            "    #    smart: for projects reference to SMART",
+            "    #    citymark: for projects reference to CityMark",
+            "    product_type: base",
+            ""
+          ],
+          "executable": false
+        },
+        "config/routes/json_rpc.yaml": {
+          "contents": [
+            "json_rpc_routes:",
+            "    resource: '@JsonRpcBundle/config/routes/routes.yaml'",
+            ""
+          ],
+          "executable": false
+        }
+      },
+      "ref": "9d1879df26afbc4fb51b65ac1111dc595f213f7c"
+    }
+  }
+}
