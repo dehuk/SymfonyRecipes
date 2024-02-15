@@ -14,7 +14,7 @@
         ]
       },
       "files": {
-        "config/packages/sharp_json_rpc.yaml": {
+        "config/packages/json_rpc.yaml": {
           "contents": [
             "json_rpc:",
             "",
@@ -27,7 +27,7 @@
           ],
           "executable": false
         },
-        "config/routes/sharp_json_rpc.yaml": {
+        "config/routes/json_rpc.yaml": {
           "contents": [
             "json_rpc_routes:",
             "    resource: '@JsonRpcBundle/config/routes/routes.yaml'",
@@ -36,7 +36,7 @@
           "executable": false
         }
       },
-      "ref": "a522a55092000a051d2553fa82fdd10d2b35f587"
+      "ref": "471ba6cf4677ac2e439ed8360ca89c8e80b79172"
     }
   }
 }
