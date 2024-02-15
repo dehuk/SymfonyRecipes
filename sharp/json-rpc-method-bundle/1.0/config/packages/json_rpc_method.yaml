@@ -1,2 +1,8 @@
 json_rpc_http_server:
   endpoint: '/jsonrpc/v1/'
+
+json_rpc_method:
+  idempotent_settings:
+    idempotent_methods:
+      - none
+    idempotence_key_life_span: 300
