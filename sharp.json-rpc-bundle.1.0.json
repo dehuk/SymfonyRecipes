@@ -12,8 +12,8 @@
           " * Log settings",
           "   monolog.formatter.jsonrpc_request:",
           "     class: Monolog\\Formatter\\LineFormatter",
-          "       arguments:",
-          "         - \"[%%datetime%%] [%%extra.command%%] [%%extra.context%%] %%channel%%.%%level_name%%: %%message%% %%context%% %%extra%%\\n\"",
+          "     arguments:",
+          "       - \"[%%datetime%%] [%%extra.command%%] [%%extra.context%%] %%channel%%.%%level_name%%: %%message%% %%context%% %%extra%%\\n\"",
           "",
           "   Sharp\\Bundle\\JsonRpc\\Logger\\JsonRpcRequestProcessor:",
           "     tags:",
@@ -22,7 +22,7 @@
         ]
       },
       "files": {
-        "config/packages/json_rpc.yaml": {
+        "config/packages/sharp_json_rpc.yaml": {
           "contents": [
             "json_rpc:",
             "",
@@ -35,7 +35,7 @@
           ],
           "executable": false
         },
-        "config/routes/json_rpc.yaml": {
+        "config/routes/sharp_json_rpc.yaml": {
           "contents": [
             "json_rpc_routes:",
             "    resource: '@JsonRpcBundle/config/routes/routes.yaml'",
@@ -44,7 +44,7 @@
           "executable": false
         }
       },
-      "ref": "9d1879df26afbc4fb51b65ac1111dc595f213f7c"
+      "ref": "e227ae259d33374de7a514a6500373f33b685231"
     }
   }
 }

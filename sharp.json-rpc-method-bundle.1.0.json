@@ -1,0 +1,24 @@
+{
+  "manifests": {
+    "sharp/json-rpc-method-bundle": {
+      "manifest": {
+        "bundles": {
+          "Sharp\\Bundle\\JsonRpcMethod\\JsonRpcMethodBundle": ["all"]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        }
+      },
+      "files": {
+        "config/packages/sharp_json_rpc_method.yaml": {
+          "contents": [
+            "json_rpc_http_server:",
+            "   endpoint: '/jsonrpc/v1/'"
+          ],
+          "executable": false
+        }
+      },
+      "ref": "0513c037b0d5f7a2cc12384c4e00c263cb43469f"
+    }
+  }
+}
