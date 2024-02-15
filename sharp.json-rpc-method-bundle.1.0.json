@@ -3,7 +3,9 @@
     "sharp/json-rpc-method-bundle": {
       "manifest": {
         "bundles": {
-          "Sharp\\Bundle\\JsonRpcMethod\\JsonRpcMethodBundle": ["all"]
+          "Sharp\\Bundle\\JsonRpcMethod\\JsonRpcMethodBundle": ["all"],
+          "Yoanm\\SymfonyJsonRpcHttpServer\\JsonRpcHttpServerBundle": ["all"],
+          "Yoanm\\SymfonyJsonRpcParamsValidator\\JsonRpcParamsValidatorBundle": ["all"]
         },
         "copy-from-recipe": {
           "config/": "%CONFIG_DIR%"
@@ -18,7 +20,7 @@
           "executable": false
         }
       },
-      "ref": "0513c037b0d5f7a2cc12384c4e00c263cb43469f"
+      "ref": "298f064078007f4036153bb64e4e54c0907af857"
     }
   }
 }
