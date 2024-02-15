@@ -1,0 +1,8 @@
+{
+  "bundles": {
+    "Sharp\\Bundle\\JsonRpcMethod\\JsonRpcMethodBundle": ["all"]
+  },
+  "copy-from-recipe": {
+    "config/": "%CONFIG_DIR%/"
+  }
+}
