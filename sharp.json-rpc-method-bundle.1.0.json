@@ -18,9 +18,17 @@
             "   endpoint: '/jsonrpc/v1/'"
           ],
           "executable": false
+        },
+        "config/routes/json_rpc_method.yaml": {
+          "contents": [
+            "json-rpc-endpoint:",
+            "    resource: '@JsonRpcHttpServerBundle/Resources/config/routing/endpoint.xml'",
+            ""
+          ],
+          "executable": false
         }
       },
-      "ref": "12b32bf10a67820340a2742e5d6f124761191ba0"
+      "ref": "da92678439185f14f9afabb751139d32cfe131cf"
     }
   }
 }
