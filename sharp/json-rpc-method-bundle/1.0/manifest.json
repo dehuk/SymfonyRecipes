@@ -1,7 +1,9 @@
 {
   "bundles": {
-    "Sharp\\Bundle\\JsonRpcMethod\\JsonRpcMethodBundle": ["all"]
-  },
+    "Sharp\\Bundle\\JsonRpcMethod\\JsonRpcMethodBundle": ["all"],
+    "Yoanm\\SymfonyJsonRpcHttpServer\\JsonRpcHttpServerBundle": ["all"],
+    "Yoanm\\SymfonyJsonRpcParamsValidator\\JsonRpcParamsValidatorBundle": ["all"]
+},
   "copy-from-recipe": {
     "config/": "%CONFIG_DIR%/"
   }
