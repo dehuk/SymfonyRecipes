@@ -1,0 +1,46 @@
+{
+  "manifests": {
+    "sharp/json-rpc-method-bundle": {
+      "manifest": {
+        "bundles": {
+          "Sharp\\Bundle\\Kafka\\KafkaBundle": ["all"],
+          "Sharp\\Bundle\\JsonRpc\\JsonRpcBundle": ["all"],
+          "Doctrine\\\\Bundle\\\\DoctrineBundle\\\\DoctrineBundle": ["all"]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        }
+      },
+      "files": {
+        "config/packages/kafka.yaml": {
+          "contents": [
+            "kafka:",
+            "",
+            " uri:",
+            "",
+            " producer:",
+            "   message.timeout.ms:",
+            "",
+            " consumer:",
+            "   group.id:",
+            "   enable.auto.offset.store: false",
+            "   enable.auto.commit: false",
+            "   session.timeout.ms: 15000",
+            "   heartbeat.interval.ms: 2000",
+            "   max.poll.interval.ms: 3000000",
+            "   allow.auto.create.topics: true",
+            "   idempotence.key.life.span: 300 #seconds",
+            "",
+            " schema_registry:",
+            "   uri:",
+            "",
+            " outbox:",
+            "   request.records:"
+          ],
+          "executable": false
+        }
+      },
+      "ref": "cd4b99284f36398a6907dee868ce87f642ad90ca"
+    }
+  }
+}

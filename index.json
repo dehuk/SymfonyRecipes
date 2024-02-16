@@ -8,6 +8,9 @@
     ],
     "sharp/json-rpc-method-bundle": [
       "1.0"
+    ],
+    "sharp/kafka-bundle": [
+      "1.0"
     ]
   },
   "branch": "main",
