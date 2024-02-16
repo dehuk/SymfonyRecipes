@@ -1,6 +1,6 @@
 {
   "manifests": {
-    "sharp/json-rpc-method-bundle": {
+    "sharp/kafka-bundle": {
       "manifest": {
         "bundles": {
           "Sharp\\Bundle\\Kafka\\KafkaBundle": ["all"],
@@ -40,7 +40,7 @@
           "executable": false
         }
       },
-      "ref": "cd4b99284f36398a6907dee868ce87f642ad90ca"
+      "ref": "849f87600459b8c805c6079e1a65b389b461a458"
     }
   }
 }
