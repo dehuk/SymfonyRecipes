@@ -1,0 +1,22 @@
+kafka:
+
+  uri:
+
+  producer:
+    message.timeout.ms:
+
+  consumer:
+    group.id:
+    enable.auto.offset.store: false
+    enable.auto.commit: false
+    session.timeout.ms: 15000
+    heartbeat.interval.ms: 2000
+    max.poll.interval.ms: 3000000
+    allow.auto.create.topics: true
+    idempotence.key.life.span: 300 #seconds
+
+  schema_registry:
+    uri:
+
+  outbox:
+    request.records:
