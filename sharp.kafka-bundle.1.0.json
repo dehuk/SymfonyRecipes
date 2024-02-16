@@ -3,9 +3,7 @@
     "sharp/kafka-bundle": {
       "manifest": {
         "bundles": {
-          "Sharp\\Bundle\\Kafka\\KafkaBundle": ["all"],
-          "Sharp\\Bundle\\JsonRpc\\JsonRpcBundle": ["all"],
-          "Doctrine\\\\Bundle\\\\DoctrineBundle\\\\DoctrineBundle": ["all"]
+          "Sharp\\Bundle\\Kafka\\KafkaBundle": ["all"]
         },
         "copy-from-recipe": {
           "config/": "%CONFIG_DIR%"
