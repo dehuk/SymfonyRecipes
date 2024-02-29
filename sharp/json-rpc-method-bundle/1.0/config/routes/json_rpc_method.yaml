@@ -1,2 +1,2 @@
-json-rpc-endpoint:
+json_rpc_method_routes:
   resource: '@JsonRpcHttpServerBundle/Resources/config/routing/endpoint.xml'
