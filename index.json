@@ -11,6 +11,9 @@
     ],
     "sharp/kafka-bundle": [
       "1.0"
+    ],
+    "sharp/elastic-client-bundle": [
+      "1.0"
     ]
   },
   "branch": "main",

@@ -1,0 +1,32 @@
+{
+  "manifests": {
+    "sharp/elastic-client-bundle": {
+      "manifest": {
+        "bundles": {
+          "Sharp\\Bundle\\ElasticClient\\ElasticClientBundle": ["all"]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        }
+      },
+      "files": {
+        "config/packages/elastic_client.yaml": {
+          "contents": [
+            "elastic_client:",
+            "  # A list of elastic connections",
+            "  connections:",
+            "    # default connection",
+            "    main:",
+            "      server: elastic",
+            "      port: 9200",
+            "      auth:",
+            "        user:",
+            "        password:"
+          ],
+          "executable": false
+        }
+      },
+      "ref": "9af4a159cc1356a68c3054bc143287b8a0fac2fb"
+    }
+  }
+}
