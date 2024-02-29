@@ -1,0 +1,8 @@
+{
+  "bundles": {
+    "Sharp\\Bundle\\Common\\CommonBundle": ["all"]
+  },
+  "copy-from-recipe": {
+    "config/": "%CONFIG_DIR%/"
+  }
+}

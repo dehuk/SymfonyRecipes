@@ -1,0 +1,9 @@
+health_check:
+
+  entries:
+    - database
+    - redis
+    - elastic.main
+    - elastic.api_v1
+    - kafka
+    - schema_registry
