@@ -1,0 +1,32 @@
+{
+  "manifests": {
+    "sharp/common-bundle": {
+      "manifest": {
+        "bundles": {
+          "Sharp\\Bundle\\Common\\CommonBundle": ["all"]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        }
+      },
+      "files": {
+        "config/packages/health_check.yaml": {
+          "contents": [
+            "health_check:",
+            "",
+            "  entries:",
+            "    - database",
+            "    - redis",
+            "    - elastic.main",
+            "    - elastic.api_v1",
+            "    - elastic.logs",
+            "    - kafka",
+            "    - schema_registry"
+          ],
+          "executable": false
+        }
+      },
+      "ref": "dc766ce521e73307257d95798704cea333d060aa"
+    }
+  }
+}

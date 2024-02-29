@@ -14,6 +14,9 @@
     ],
     "sharp/elastic-client-bundle": [
       "1.0"
+    ],
+    "sharp/common-bundle": [
+      "1.0"
     ]
   },
   "branch": "main",
