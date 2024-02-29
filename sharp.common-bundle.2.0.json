@@ -24,9 +24,17 @@
             "    - schema_registry"
           ],
           "executable": false
+        },
+        "config/routes/health_check.yaml": {
+          "contents": [
+            "health_check_routes:",
+            "    resource: '@CommonBundle/config/routes/routes.yaml'",
+            ""
+          ],
+          "executable": false
         }
       },
-      "ref": "dc766ce521e73307257d95798704cea333d060aa"
+      "ref": "f5974753f45dc830f07032261b0570555c25b903"
     }
   }
 }

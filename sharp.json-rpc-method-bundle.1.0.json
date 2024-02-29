@@ -28,14 +28,14 @@
         },
         "config/routes/json_rpc_method.yaml": {
           "contents": [
-            "json-rpc-endpoint:",
+            "json_rpc_method_routes:",
             "    resource: '@JsonRpcHttpServerBundle/Resources/config/routing/endpoint.xml'",
             ""
           ],
           "executable": false
         }
       },
-      "ref": "732e4b5d0d26ca430c2baff55f0354b3d56ba16d"
+      "ref": "d2ecf9dcfedf51709407329b4c6be9a3f757fe92"
     }
   }
 }
