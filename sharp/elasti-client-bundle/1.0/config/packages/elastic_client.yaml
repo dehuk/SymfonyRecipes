@@ -1,0 +1,10 @@
+elastic_client:
+  # A list of elastic connections
+  connections:
+    # default connection
+    main:
+      server: elastic
+      port: 9200
+      auth:
+        user:
+        password:
