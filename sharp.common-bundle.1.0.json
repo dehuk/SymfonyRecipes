@@ -14,6 +14,7 @@
           "contents": [
             "health_check:",
             "",
+            "  # Valid list: database, redis, elastic.main, elastic.api_v1, kafka, schema_registry",
             "  entries:",
             "    - database",
             "    - redis",
@@ -21,7 +22,12 @@
             "    - elastic.api_v1",
             "    - elastic.logs",
             "    - kafka",
-            "    - schema_registry"
+            "    - schema_registry",
+            "",
+            "  entry_settings:",
+            "    # elastic: '@Sharp\\Bundle\\ElasticClient\\Service\\HealthCheck\\ElasticHealthCheck'",
+            "    # kafka: '@Sharp\\Bundle\\Kafka\\Service\\HealthCheck\\KafkaHealthCheck'",
+            "    # schema_registry: '@Sharp\\Bundle\\Kafka\\Service\\HealthCheck\\SchemaRegistryHealthCheck'"
           ],
           "executable": false
         },
@@ -34,7 +40,7 @@
           "executable": false
         }
       },
-      "ref": "0b955c61c3216365a94e25e00ebf392269e54e8f"
+      "ref": "6b10cf854aea73c77267ade2100327559d159e84"
     }
   }
 }
