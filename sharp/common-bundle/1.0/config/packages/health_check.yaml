@@ -1,5 +1,6 @@
 health_check:
 
+  # Valid list: database, redis, elastic.main, elastic.api_v1, kafka, schema_registry
   entries:
     - database
     - redis
@@ -7,3 +8,8 @@ health_check:
     - elastic.api_v1
     - kafka
     - schema_registry
+
+  entry_settings:
+    # elastic: '@Sharp\Bundle\ElasticClient\Service\HealthCheck\ElasticHealthCheck'
+    # kafka: '@Sharp\Bundle\Kafka\Service\HealthCheck\KafkaHealthCheck'
+    # schema_registry: '@Sharp\Bundle\Kafka\Service\HealthCheck\SchemaRegistryHealthCheck'
