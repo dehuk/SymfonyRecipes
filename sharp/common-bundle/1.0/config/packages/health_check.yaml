@@ -10,6 +10,6 @@ health_check:
     - schema_registry
 
   entry_settings:
-    # elastic: '@Sharp\Bundle\ElasticClient\Service\HealthCheck\ElasticHealthCheck'
-    # kafka: '@Sharp\Bundle\Kafka\Service\HealthCheck\KafkaHealthCheck'
-    # schema_registry: '@Sharp\Bundle\Kafka\Service\HealthCheck\SchemaRegistryHealthCheck'
+    # elastic: 'Sharp\Bundle\ElasticClient\Service\HealthCheck\ElasticHealthCheck'
+    # kafka: 'Sharp\Bundle\Kafka\Service\HealthCheck\KafkaHealthCheck'
+    # schema_registry: 'Sharp\Bundle\Kafka\Service\HealthCheck\SchemaRegistryHealthCheck'
