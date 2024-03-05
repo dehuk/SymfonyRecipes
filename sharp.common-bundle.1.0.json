@@ -25,9 +25,9 @@
             "    - schema_registry",
             "",
             "  entry_settings:",
-            "    # elastic: '@Sharp\\Bundle\\ElasticClient\\Service\\HealthCheck\\ElasticHealthCheck'",
-            "    # kafka: '@Sharp\\Bundle\\Kafka\\Service\\HealthCheck\\KafkaHealthCheck'",
-            "    # schema_registry: '@Sharp\\Bundle\\Kafka\\Service\\HealthCheck\\SchemaRegistryHealthCheck'"
+            "    # elastic: 'Sharp\\Bundle\\ElasticClient\\Service\\HealthCheck\\ElasticHealthCheck'",
+            "    # kafka: 'Sharp\\Bundle\\Kafka\\Service\\HealthCheck\\KafkaHealthCheck'",
+            "    # schema_registry: 'Sharp\\Bundle\\Kafka\\Service\\HealthCheck\\SchemaRegistryHealthCheck'"
           ],
           "executable": false
         },
@@ -40,7 +40,7 @@
           "executable": false
         }
       },
-      "ref": "6b10cf854aea73c77267ade2100327559d159e84"
+      "ref": "df40cb8bb368988ffcbb9d8064896587ea41a4c4"
     }
   }
 }
