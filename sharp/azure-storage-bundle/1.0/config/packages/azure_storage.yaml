@@ -1,0 +1,9 @@
+azure_storage:
+
+  account:
+    name: '%deps.azure.blob.account.name%'
+    key: '%deps.azure.blob.account.name%'
+
+  blob:
+    endpoint: '%deps.azure.blob.endpoint%'
+    container: '%deps.azure.blob.container%'

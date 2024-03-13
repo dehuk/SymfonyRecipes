@@ -1,0 +1,8 @@
+{
+  "bundles": {
+    "Sharp\\Bundle\\AzureStorage\\AzureStorageBundle": ["all"]
+  },
+  "copy-from-recipe": {
+    "config/": "%CONFIG_DIR%/"
+  }
+}
