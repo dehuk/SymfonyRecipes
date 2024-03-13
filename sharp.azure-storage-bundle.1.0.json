@@ -1,0 +1,32 @@
+{
+  "manifests": {
+    "sharp/azure-storage-bundle": {
+      "manifest": {
+        "bundles": {
+          "Sharp\\Bundle\\AzureStorage\\AzureStorageBundle": ["all"]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        }
+      },
+      "files": {
+        "config/packages/azure_storage.yaml": {
+          "contents": [
+            "azure_storage:",
+            "",
+            "  account:",
+            "    name: '%deps.azure.blob.account.name%'",
+            "    key: '%deps.azure.blob.account.key%'",
+            "",
+            "  blob:",
+            "    endpoint: '%deps.azure.blob.endpoint%'",
+            "    container: '%deps.azure.blob.container%'",
+            ""
+          ],
+          "executable": false
+        }
+      },
+      "ref": "b57019b6afb4b3947b7cab1e18394644561b5ed0"
+    }
+  }
+}

@@ -17,6 +17,9 @@
     ],
     "sharp/common-bundle": [
       "1.0"
+    ],
+    "sharp/azure-storage-bundle": [
+      "1.0"
     ]
   },
   "branch": "main",
