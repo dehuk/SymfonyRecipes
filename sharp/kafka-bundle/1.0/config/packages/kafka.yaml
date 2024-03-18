@@ -6,12 +6,12 @@ kafka:
 
   consumer:
     group_id:
-    enable_auto_offset_store: false
-    enable_auto_commit: false
+    enable_auto_offset_store: 'false'
+    enable_auto_commit: 'false'
     session_timeout_ms: 15000
     heartbeat_interval_ms: 2000
     max_poll_interval_ms: 3000000
-    allow_auto_create_topics: true
+    allow_auto_create_topics: 'true'
     idempotence_key_life_span: 300 #seconds
 
   schema_registry:
